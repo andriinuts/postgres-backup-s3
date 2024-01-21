@@ -1,4 +1,4 @@
-FROM alpine:3.14
+FROM alpine:14.7
 ARG TARGETARCH
 
 ADD src/install.sh install.sh
